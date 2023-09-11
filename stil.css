@@ -1,0 +1,78 @@
+/* stil.css dosyası */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button[type="submit"] {
+    padding: 8px 15px;
+    margin-top: 5px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 250px;
+    margin: 10px;
+}
+
+.metin {
+    margin-right: 2em; /* 2 boşluk (yaklaşık 2 karakter) ara */
+}
+
+.centered-link {
+    text-align: center;
+    margin-top: 40px; /* İstediğiniz boşluk miktarını ayarlayabilirsiniz */
+}
+
+
+
